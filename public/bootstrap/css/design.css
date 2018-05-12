@@ -1,0 +1,28 @@
+
+/*top-nav*/
+
+.logo {
+	height: 65px;
+}
+
+.btn-link {
+	font-size: 20px;
+}
+
+.top-nav {
+	padding-top: 25px;
+}
+
+/*forms*/
+.input-fields {
+	height: 45px;
+}
+
+button {
+	width: 100px;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-left: 5px;
+  }
