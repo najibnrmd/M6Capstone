@@ -158,7 +158,7 @@ if(!isset($_POST["submitted"])){
           $link = "localhost/capstone/public/modules/user/unsubscribe.php";
           $mail->addBCC($email);
           $mail->isHTML(true);
-          $mail->Subject = "ABC DevOps Mailing List - Unsubscribe Successful";
+          $mail->Subject = "ABC DevOps Mailing List";
           $mail->Body = "<p>Dear ".$firstname." ".$lastname.",</p><p>You are now subscribed to our mailing list! Thank You!</p><p>Click on the link below if you want to unsubscribe from our mailing list.</p><p><a href = {$link}?id={$id}&hashkey={$hashkey}>Unsubscribe</a></p>";
           $mail->AltBody = "This is the plain text version of the email content";
           if(!$mail->send())
